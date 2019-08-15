@@ -25,7 +25,6 @@ BuildDeepNet = build_network.network
 
 
 ''' Import datasets - MNIST '''
-# For evaluating PCA for noise suppression - network perfromance
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("MNIST_data/", one_hot = True)
 

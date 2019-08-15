@@ -56,7 +56,7 @@ class FullyConnectedLayer(object):
         
         
 #'''
-#Testing input and ouput for formats of FullyConnectedLayer ...
+#Testing input and ouput formats of FullyConnectedLayer ...
 #'''
 #test_in = tf.placeholder(tf.float32, shape = [None, 784])
 #test_out = tf.placeholder(tf.float32, shape = [None, 10]) 
